@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90669572869",
+    "project_id": "pmovilg4tarea02",
+    "storage_bucket": "pmovilg4tarea02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90669572869:android:5d66bfe0a3f94473608d6c",
+        "android_client_info": {
+          "package_name": "com.example.pmovilg4tarea02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90669572869-s5k1i46miotrrric1c3eq1hnrel2p3gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW0qsy-4mPsmeQEXEllrctIiFhsMLcJUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90669572869-s5k1i46miotrrric1c3eq1hnrel2p3gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
