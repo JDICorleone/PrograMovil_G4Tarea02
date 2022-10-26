@@ -1,10 +1,10 @@
-package com.example.firebaseloginkotlin
+package com.example.pmovilg4tarea02
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.firebaseloginkotlin.databinding.ActivityDeleteAccountBinding
+import com.example.pmovilg4tarea02.databinding.ActivityDeleteAccountBinding
 import com.google.firebase.auth.EmailAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

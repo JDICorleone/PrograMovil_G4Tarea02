@@ -1,5 +1,4 @@
-package com.example.firebaseloginkotlin
-
+package com.example.pmovilg4tarea02
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +8,7 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.example.firebaseloginkotlin.databinding.ActivityMainBinding
+import com.example.pmovilg4tarea02.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.storage.FirebaseStorage
