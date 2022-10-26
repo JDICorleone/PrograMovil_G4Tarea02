@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         user!!.updateProfile(profileUpdates)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    Toast.makeText(this, "Se realizaron los cambios correctamente.",
+                    Toast.makeText(this, "Se han aplicado los cambios correctamente.",
                         Toast.LENGTH_SHORT).show()
                     updateUI()
                 }

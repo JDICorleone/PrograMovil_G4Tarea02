@@ -35,13 +35,13 @@ class SignUpActivity : AppCompatActivity() {
                     "$")
 
             if(mEmail.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(mEmail).matches()) {
-                Toast.makeText(this, "Ingrese un email valido.",
+                Toast.makeText(this, "Ingrese un email válido.",
                     Toast.LENGTH_SHORT).show()
             } else if (mPassword.isEmpty() || !passwordRegex.matcher(mPassword).matches()){
-                Toast.makeText(this, "La contraseña es debil.",
+                Toast.makeText(this, "La contraseña podría ser demasiado débil.",
                     Toast.LENGTH_SHORT).show()
             } else if (mPassword != mRepeatPassword){
-                Toast.makeText(this, "Confirma la contraseña.",
+                Toast.makeText(this, "Por favor, confirma tu contraseña.",
                     Toast.LENGTH_SHORT).show()
             } else {
                 createAccount(mEmail, mPassword)
@@ -77,7 +77,7 @@ class SignUpActivity : AppCompatActivity() {
                     val intent = Intent(this, CheckEmailActivity::class.java)
                     this.startActivity(intent)
                 } else {
-                    Toast.makeText(this, "No se pudo crear la cuenta. Vuelva a intertarlo",
+                    Toast.makeText(this, "Error al crear la cuenta, inténtelo de nuevo",
                         Toast.LENGTH_SHORT).show()
                 }
             }

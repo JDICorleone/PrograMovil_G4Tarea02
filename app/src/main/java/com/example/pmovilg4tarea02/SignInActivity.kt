@@ -28,7 +28,7 @@ class SignInActivity : AppCompatActivity() {
 
             when {
                 mPassword.isEmpty() || mEmail.isEmpty() -> {
-                    Toast.makeText(this, "Email o contraseña o incorrectos.",
+                    Toast.makeText(this, "Email o contraseña incorrectos.",
                         Toast.LENGTH_SHORT).show()
                 }
                 else -> {

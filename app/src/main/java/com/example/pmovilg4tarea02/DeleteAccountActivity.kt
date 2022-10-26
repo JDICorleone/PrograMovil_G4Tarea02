@@ -45,14 +45,14 @@ class DeleteAccountActivity : AppCompatActivity() {
                         user.delete()
                             .addOnCompleteListener { taskDeleteAcount ->
                                 if (taskDeleteAcount.isSuccessful) {
-                                    Toast.makeText(this, "Se elminó tu cuenta.",
+                                    Toast.makeText(this, "Se ha eliminado tu cuenta correctamente.",
                                         Toast.LENGTH_SHORT).show()
                                     signOut()
                                 }
                             }
 
                     } else {
-                        Toast.makeText(this, "La contraseña ingresada es incorrecta.",
+                        Toast.makeText(this, "La contraseña que ingresaste es incorrecta.",
                             Toast.LENGTH_SHORT).show()
                     }
                 }
